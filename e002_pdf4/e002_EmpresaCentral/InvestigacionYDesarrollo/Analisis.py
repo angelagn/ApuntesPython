@@ -1,0 +1,1 @@
+print("Equipo de estadistica")
