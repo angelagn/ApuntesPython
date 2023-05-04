@@ -1,0 +1,3 @@
+import e019_RecursividadParte1
+
+print(e019_RecursividadParte1.factorialRecursivo(5))
