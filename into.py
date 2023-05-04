@@ -24,3 +24,10 @@ seguido de punto y el nombre del elemento que se desee obtener.
 -en cada paquete debe haber un _init
 -de cada paquete puedo importar el modulo que desee
 -  '''
+''' Identificar en consola python la direccion de memoria ram en la que está
+una variable
+>>> value5 = None
+>>> id(value5)
+(imprime ->)139717727653264'''
+
+'''En python más de 60 carqacteres da error, para ir cosiendo se utiliza backslash'''
