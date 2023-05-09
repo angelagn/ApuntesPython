@@ -18,31 +18,33 @@
 
 class Heroe1:
     def __init__ (self, canFly, canShoot):
-        self.canFly = True
-        self.canShoot = True
+        self.canFly = canFly
+        self.canShoot = canShoot
 
     def puedeVolar(self):
         if self.canFly == True:
-            print("el heroe puede volar")
+            print("El heroe puede volar")
 
     def puedeDisparar(self):
         if self.canShoot == True:
-            print("el heroe puede disparar")
+            print("El heroe puede disparar")
 
 
 
 class Heroe2:
     def __init__(self, canEyesLaser, name):
-        self.canEyesLaser = True
-        self.name = "Superman"
+        self.canEyesLaser = canEyesLaser
+        self.name = name
 
 
 class MostrarHeroe(Heroe1, Heroe2):
     def __init__(self, canFly, canShoot):
-        super().__init__(self, canFly, canShoot)
+        super().__init__(canFly, canShoot)
 
     def ShowInfo(self, nuevoTemp):
-        #nuevoTemp = Heroe
+        self.name = nuevoTemp
         print("mi nombre nuevo es", nuevoTemp)
+   
 
-    ShowInfo("super Mario")
+heroe = MostrarHeroe(True, True)
+heroe.ShowInfo("super Mario")
