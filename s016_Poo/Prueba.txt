@@ -1,0 +1,11 @@
+Esto es una prueba
+de lectura
+de archivos
+de python
+
+
+
+20230510    9:43    Miguel  pepe    100$
+20230510    9:43    Miguel  RAfael  50 euros
+20230510    9:43    Miguel  Rosa    20 euros
+20230510    9:43    Miguel  Juan    200 euros

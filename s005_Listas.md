@@ -63,3 +63,9 @@ squares = [1,4,9,16,25]
 squares + [37, 70]
 print(squares)
 print(max(squares)) #Saca el valor maximo de la lista
+
+
+
+![Alt text](/imagesMarkdown.png)
+
+
