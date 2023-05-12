@@ -1,9 +1,4 @@
 #Switch de python match
-# color = "red"
-
-# match color:
-#     case 'white':
-#         print()
 
 age = 21
 

@@ -49,7 +49,7 @@ OpenGL
 
 '''
 
-from guizero import App, Text, PushButton
+#from guizero import App, Text, PushButton
 def funcion1():
     print("Boton pulsado")
    
@@ -61,3 +61,28 @@ ayuda = Text(app text="ayuda manual en linnk")
 button1 = PushButton(app, text="Pulsar aqui", command=funcion1) #funcion que quiero 2que ejecute el boton
 
 app.display()
+
+
+'''OTRO EJEMPLO'''
+
+from guizero import App, Text
+
+objApp = App(title="Application Name")
+objText = Text(ObjApp, text="Bienvenido a nuestra aplicación")
+app.display()
+
+
+'''
+organizacion de archivos:
+Cada mórulo lleva su archivo de __init__
+Proyecto
+    CalculosMath
+        __init__.py
+        flie1.py
+        file2.py
+        file3.py
+    controlAlumno
+        __init__.py
+        control1..py
+        control2.py
+    '''
