@@ -68,9 +68,5 @@ objCheckbox13 = CheckBox(app, text="Suspenso")
 #widgets
 
 
-
-
-
-
 app.display()
 
