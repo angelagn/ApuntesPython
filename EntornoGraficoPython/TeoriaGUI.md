@@ -80,3 +80,12 @@ print(titanic.head(8))
 #Tipos de datos
 print(titanic.dtypes)
 ```
+# Para calcular el tiempo
+
+Se crea una variable y se pone la fecha actual con data.now 
+
+```py
+objBoton9 = PushButton(objApp, command=timeCalculator.inicioTime, text="Iniciar Tiempo")
+objBoton10 = PushButton(objApp, command=timeCalculator.finTime, text="Finalizar Tiempo")
+
+```

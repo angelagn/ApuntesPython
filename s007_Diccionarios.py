@@ -17,3 +17,11 @@ print(edades)
 #Borrar elementos
 del edades["Angela"]
 print(edades)
+#otra forma de borrar elementos
+diccionario = {'clave1': 'valor1', 'clave2': 'valor2', 'clave3': 'valor3'}
+
+# Eliminar un elemento usando pop()
+valor_eliminado = diccionario.pop('clave2')
+print(diccionario)  # {'clave1': 'valor1', 'clave3': 'valor3'}
+print(valor_eliminado)  # valor2
+
