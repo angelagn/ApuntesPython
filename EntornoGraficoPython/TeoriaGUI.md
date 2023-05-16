@@ -20,6 +20,38 @@ Un salto de línea
 objText1 = Text(app, text="\n\n")
 ```
 
+Ejemplo en guizero
+```py
+#widgets
+ibjText01 = Text(app, text="Control de alumnos", size=40, font="Times new roman", color='#ffffff')
+objText2 = Text(app, text="\n")
+
+objText3 = Text(app, text="Introducir su nombre", size=20, font="Times new roman", color='#ffffff')
+
+objTextBox4 = TextBox(app)
+
+objButton5 = PushButton(app, command=say_my_name, text="Mostrar Nombre)
+objText6 = Text(app, text="\n")
+objText7 = Text(app, text="Resultado", size=20, font="Times new roman", color='#ffffff')
+
+#widgets
+
+app.display()
+```
+
+# Crear un espcio en blanco
+```py
+some_empty_space = Text(app, text="   ", grid=[0,2], align="left")
+```
+
+```
+
+
+```
+
+
+
+
 ## tkinter
 ```py
 from datetime import datetime
